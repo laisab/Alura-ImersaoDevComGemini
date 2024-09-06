@@ -1,3 +1,3 @@
 # Imersão Dev com Google Gemini
 
-## Aula 1: Iniciando o Projeto com HTML e CSS
+Imersão da Alura que mergulha em HTML, CSS e JavaScript com ajuda do Google Gemini.
