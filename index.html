@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!--Tipo de documento: HTML5-->
+<html lang="pt-br"> <!--Elemento raiz do documento. Idioma do conteúdo como português (lang é um atributo)-->
+<!--Tag para informar o navegador; metadados-->
+
+<head> <!--Informações sobre o documento HTML, como título e conjunto de caracteres-->
+    <meta charset="UTF-8">
+    <!--Conjunto de caracteres como UTF-8, que suporta uma ampla variedade de caracteres de diferentes idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Controla a área visível da página. Responsável pela responsividade-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Olimpíadas</title> <!--Título da página-->
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Atletas do Brasil</h1>
+    </header>
+
+    <!--Conteúdo Principal-->
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta ou esporte" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: lais@atletas.com</p>
+    </footer>
+
+    <script src="dados.js"></script> <!--Primeiro: base de dados-->
+    <script src="app.js"></script> <!--Segundo: lógica-->
+</body>
+
+</html>
